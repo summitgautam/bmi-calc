@@ -1,0 +1,105 @@
+/*gone for simple design, well this is a js focused app so i didnt focus much on css to make it a WOW*/
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.all{
+    background: #ffffff;
+    width: 100%;
+    max-width: 380px;
+    padding: 25px;
+    border-radius: 12px;
+}
+.title-text{
+    text-align: center;
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.tab{
+    display: flex;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 1px solidd #dcdde1;
+}
+.tab-btn{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #f5f6fa;
+    color: #7f8fa6;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+.tab-btn.active{
+    background: #3498db;
+    color: #ffffff;
+}
+.input-block{
+    margin-bottom: 15px;
+}
+.input-block label{
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #353b48;
+    font-weight: 500;
+}
+.input-block input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dcdde1;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+.input-block input:focus{
+    border-color: #3498db;
+}
+.hide-this{
+    display: none;
+}
+.calc-trigger{
+    width: 100%;
+    padding: 12px;
+    background: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top:10px;
+    transition: background 0.2s;
+}
+.calc-trigger:hover{
+    background-color:#27ae60;
+}
+.results-card{
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+    display: none;
+}
+.results-card h3{
+    font-size: 22px;
+    margin: 0;
+}
+.results-card p{
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+}
