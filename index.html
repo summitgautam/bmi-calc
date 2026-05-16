@@ -7,7 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="all">
+        <h2 class="title-text">BMI Calculator</h2>
+        <div class="tab">
+            <button id="btn-metric" class="tab-btn active-tab">Metric (kg/cm)</button>
+            <button id="btn-imperial" class="tab-btn">Imperial (lbs/in)</button>
+        </div>
+        <div id="metric">
+<div class="input-block">
+    <label for="kg">Weight (kg)</label>
+    <input type="number" id="val-kg" placeholder="Eg: 69">
+</div>
+<div class="input-block">
+    <label for="cm">Height (cm)</label>
+    <input type="number" id="val-cm" placeholder="Eg: 169">
+</div>
+        </div>
+        <div id="imperial">
+            <div class="input-block">
+                <label for="lbs">Weight (lbs)</label>
+                <input type="number" id="lbs" placeholder="167">
+            </div>
+            <div class="input-block">
+                <label for="inches">Height (inches)</label>
+                <input type="number" id="inches" placeholder="67">
+            </div>
+        </div>
+        <button id="run-calc" class="calc-trigger">Calculate</button>
+        <div id="final-output" class="results-card">
+            <h3 id="show-number"></h3>
+            <p id="show-text"></p>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
