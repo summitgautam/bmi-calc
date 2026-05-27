@@ -5,4 +5,4 @@ BMI calculator is a calculator which calculates your BMI (Body Mass Index) using
 - CSS - To style the HTML elements and make the app visually more attractive.
 - JS - To do calculation and show the calculated result in the web page.
 ## How to use it?
-Just go to https:// and use it!
+Just go to https://summitgautam.github.io/bmi-calc/ and use it!
