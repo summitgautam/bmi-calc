@@ -1,5 +1,6 @@
 # BMI Calculator
-BMI calculator is a calculator which calculates your BMI (Body Mass Index) using your height and weight.
+BMI calculator is a calculator which calculates your BMI (Body Mass Index) using your height and weight. It works on evry device and also it can count your bmi through both metric and normal units such as ft and lbs also kg and cm.
+<img src="bmi calc.png" >
 ## Technologies Used:
 - HTML - To make the structure of the file.
 - CSS - To style the HTML elements and make the app visually more attractive.
